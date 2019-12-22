@@ -1,0 +1,47 @@
+.dir-container{
+    margin: auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .dir-container{
+        flex-wrap: wrap;
+    }
+    .dir-container-col{
+        flex: 100%;
+
+    }
+}
+@media screen and (max-width: 1300px) {
+    .dir-container{
+        flex-wrap: wrap;
+    }
+    .dir-container-col{
+        flex: 33%;
+
+    }
+}
+@media screen and (max-width: 1020px) {
+    .dir-container{
+        flex-wrap: wrap;
+    }
+    .dir-container-col{
+        flex: 50%;
+
+    }
+}
+.dir-container-col{
+
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    flex: 25%;
+    align-items: center;
+    margin-bottom: auto;
+}
